@@ -10,11 +10,8 @@ body {
     margin: 20px auto;
     padding: 120px;
     border: 1px solid #ccc;
-    background-color: #fff;
+    background-color: #333;
 }
-
-
-
 
 .title {
     text-align: center;
@@ -55,7 +52,6 @@ main ol li {
     margin-bottom: 20px;
 }
 
-
 footer {
     text-align: center;
 }
@@ -64,4 +60,13 @@ footer img {
     padding-top: 40px;
     width: 150px;
     height: auto;
+}
+
+.dark {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.dark .title h2 {
+    color: #99ccff;
 }
