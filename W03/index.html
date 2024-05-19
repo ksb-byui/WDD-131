@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A photography gallery showcasing cool pictures.">
-    <meta name="author" content="Your Name">
+    <meta name="author" content="Kole Bauer">
     <title>Cool Pics 📷</title>
     <link rel="stylesheet" href="coolpics.css">
 </head>
 <body>
+    <div class="viewer hide">
+        <button class="close-viewer">X</button>
+        <img src="" alt="Viewer Image">
+    </div>
+
     <header>
         <h1 class="title">Cool Pics 📷</h1>
-        <button id="menu-button">Menu</button>
-        <nav>
+        <button id="menu-button" class="menu-button">Menu</button>
+        <nav class="menu hide">
             <ul>
                 <li><a href="https://ksb-byui.github.io/WDD-131/">Home</a></li>
                 <li><a href="#">People</a></li>
@@ -27,36 +32,37 @@
         <h2>Photos of the Day</h2>
         <section class="gallery">
             <figure>
-                <img src="norris-sm.jpeg" alt="Cool Pic 1">
+                <img src="norris-sm.jpeg" alt="Cool Pic 1" data-large-src="norris-full.jpeg">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Cool Pic 1">
+                <img src="norris-sm.jpeg" alt="Cool Pic 1" data-large-src="norris-full.jpeg">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Cool Pic 1">
+                <img src="norris-sm.jpeg" alt="Cool Pic 1" data-large-src="norris-full.jpeg">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Cool Pic 1">
+                <img src="norris-sm.jpeg" alt="Cool Pic 1" data-large-src="norris-full.jpeg">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Cool Pic 1">
+                <img src="norris-sm.jpeg" alt="Cool Pic 1" data-large-src="norris-full.jpeg">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Cool Pic 1">
+                <img src="norris-sm.jpeg" alt="Cool Pic 1" data-large-src="norris-full.jpeg">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Cool Pic 1">
+                <img src="norris-sm.jpeg" alt="Cool Pic 1" data-large-src="norris-full.jpeg">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Cool Pic 1">
+                <img src="norris-sm.jpeg" alt="Cool Pic 1" data-large-src="norris-full.jpeg">
             </figure>
             <figure>
-                <img src="norris-sm.jpeg" alt="Cool Pic 1">
-            </figure>
+                <img src="norris-sm.jpeg" alt="Cool Pic 1" data-large-src="norris-full.jpeg">
+            </figure>                                                                                    
         </section>
     </main>
     <footer>
         <p>©2024 Not a real site 😀</p>
     </footer>
+    <script src="coolpics.js"></script>
 </body>
 </html>
