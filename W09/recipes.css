@@ -215,3 +215,49 @@ footer p {
         width: 100%;
     }
 }
+
+@media (max-width: 600px) {
+    .recipe-card {
+        flex-direction: column; /* Stack image and text vertically */
+    }
+
+    .recipe-card img {
+        width: 100%; /* Full width of the card */
+        height: auto;
+    }
+
+    .recipe-info {
+        width: 100%; /* Full width of the card */
+    }
+
+    .recipe-info .rating {
+        margin-bottom: 0.5rem;
+        color: gold; /* Ensure rating stars are gold */
+        display: flex; /* Ensure the rating section is displayed */
+        align-items: center;
+    }
+
+    .recipe-info p {
+        display: none; /* Hide description */
+    }
+
+    .social {
+        justify-content: center;
+        margin-bottom: 1rem; /* Add margin at the bottom */
+    }
+
+    footer {
+        flex-direction: column; /* Stack content vertically */
+        padding-left: 1rem; /* Adjust for smaller screens */
+        padding-right: 1rem; /* Adjust for smaller screens */
+        align-items: center; /* Center align the content */
+    }
+
+    footer .social {
+        margin: 1rem 0; /* Add margin for space above and below the social media icons */
+    }
+
+    footer p {
+        margin-top: 1rem; /* Add margin at the top */
+    }
+}
