@@ -63,7 +63,7 @@ main {
 }
 
 .employers-content {
-    background-color: #250707; /* Fallback */
+    background-color: #250707;
     background-color: rgba(37, 7, 7, 0.9);
     padding: 20px;
     border-radius: 10px;
@@ -93,7 +93,7 @@ main {
 
 .column {
     flex: 1 0 calc(33.33% - 20px);
-    background-color: #250707; /* Fallback */
+    background-color: #250707;
     background-color: rgba(37, 7, 7, 0.9);
     padding: 20px;
     border-radius: 10px;

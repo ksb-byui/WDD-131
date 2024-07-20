@@ -6,10 +6,9 @@
     <title>Kole S. Bauer - Projects</title>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/projects.css">
-    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/filter.js" defer></script>
 </head>
 <body>
-
     <header>
         <nav>
             <a href="index.html">HOME</a>
@@ -27,18 +26,21 @@
                 skills and how I've applied them. Feel free to explore the projects, 
                 access 3D files or code, and learn more about the equipment or materials 
                 used.</p>
-            <label for="filter">Filter by Category:</label>
-            <select id="filter">
-                <option value="all">All</option>
-                <option value="crypto">Crypto Movers</option>
-                <option value="game">Kole's Game</option>
-                <option value="auto">Sigma Automotive</option>
-            </select>
+            <div class="select-container">
+                <label for="filter">Filter by Category:</label>
+                <select id="filter">
+                    <option value="All">All</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Python">Python</option>
+                    <option value="Game">Game</option>
+                    <option value="3D">3D</option>
+                    <option value="Automotive">Automotive</option>
+                </select>
+            </div>
         </div>
-        
 
         <div class="column-container">
-            <div class="column" data-category="crypto">
+            <div class="column" data-category="Finance Python">
                 <h3>"Crypto Movers" Project</h3>
                 <img src="images/codeBck.png" alt="Project 1 Image">
                 <p>A program I developed to display the top 5 mainstream cryptocurrency 
@@ -46,7 +48,7 @@
                 <a href="#" class="download-link">Explore Project</a>
             </div>
 
-            <div class="column" data-category="game">
+            <div class="column" data-category="Game Python">
                 <h3>"Kole's Game" Project</h3>
                 <img src="images/codeBck.png" alt="Project 2 Image">
                 <p>A pick your adventure game that I developed using Python3 and artificial 
@@ -54,7 +56,7 @@
                 <a href="#" class="download-link">Explore Project</a>
             </div>
 
-            <div class="column" data-category="automotive">
+            <div class="column" data-category="3D Automotive">
                 <h3>Sigma Automotive "Headrest Hook v1.0"</h3>
                 <img src="images/3dPrStock.png" alt="Project 3 Image">
                 <p>An automotive headrest storage hook that I designed for my Idaho 
@@ -74,6 +76,5 @@
         <a href="./contact.html" class="inquiry-btn">Inquiries</a>
         <a href="https://ksb-byui.github.io/WDD-131/W11-13/SitePlan/siteplan.html" class="site-plan-btn">Site Plan</a>
     </footer>
-
 </body>
 </html>
