@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kole S. Bauer - Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/projects.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="employers.html">FOR EMPLOYERS</a>
+            <img id="logo" src="images/KoleSBauer.png" alt="My Logo">
+            <a href="projects.html">PERSONAL PROJECTS</a>
+            <a href="#">SHOP (COMING SOON)</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="project-content">
+            <h2>My Projects</h2>
+            <p>This is a showcase of some of my coolest projects. It demonstrates my 
+                skills and how I've applied them. Feel free to explore the projects, 
+                access 3D files or code, and learn more about the equipment or materials 
+                used.</p>
+            <label for="filter">Filter by Category:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="crypto">Crypto Movers</option>
+                <option value="game">Kole's Game</option>
+                <option value="auto">Sigma Automotive</option>
+            </select>
+        </div>
+        
+
+        <div class="column-container">
+            <div class="column" data-category="crypto">
+                <h3>"Crypto Movers" Project</h3>
+                <img src="images/codeBck.png" alt="Project 1 Image">
+                <p>A program I developed to display the top 5 mainstream cryptocurrency 
+                    movers and information about them in intervals of 10 seconds.</p>
+                <a href="#" class="download-link">Explore Project</a>
+            </div>
+
+            <div class="column" data-category="game">
+                <h3>"Kole's Game" Project</h3>
+                <img src="images/codeBck.png" alt="Project 2 Image">
+                <p>A pick your adventure game that I developed using Python3 and artificial 
+                    intelligence.</p>
+                <a href="#" class="download-link">Explore Project</a>
+            </div>
+
+            <div class="column" data-category="automotive">
+                <h3>Sigma Automotive "Headrest Hook v1.0"</h3>
+                <img src="images/3dPrStock.png" alt="Project 3 Image">
+                <p>An automotive headrest storage hook that I designed for my Idaho 
+                    Entrepreneurship Challenge 2023 entry where my team, "Sigma Automotive 
+                    Storage Solutions" was a preliminary finalist.</p>
+                <a href="#" class="download-link">Explore Project</a>
+            </div>
+        </div>
+
+        <img id="backg" src="images/portBack.png" alt="Projects Background">
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/kole-bauer-925a1215a" target="_blank" class="linked-btn">LinkedIn</a>
+        <a href="https://github.com/ksb-byui" target="_blank" class="gith-btn">GitHub</a>
+        <a href="https://www.instagram.com/kole.boyy/" target="_blank" class="insta-btn">Instagram</a>
+        <a href="./contact.html" class="inquiry-btn">Inquiries</a>
+        <a href="https://ksb-byui.github.io/WDD-131/W11/SitePlan/siteplan.html" class="site-plan-btn">Site Plan</a>
+    </footer>
+
+</body>
+</html>

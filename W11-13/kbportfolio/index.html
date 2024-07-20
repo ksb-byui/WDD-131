@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kole S. Bauer - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="employers.html">FOR EMPLOYERS</a>
+            <img id="logo" src="images/KoleSBauer.png" alt="My Logo">
+            <a href="projects.html">PERSONAL PROJECTS</a>
+            <a href="#">SHOP (COMING SOON)</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <div id="headshot-container">
+                <img id="headshot" src="images/PortHeadshot.png" alt="Kole Professional Headshot">
+            </div>
+            <img id="backg" src="images/portBack.png" alt="Home Background">
+            <div class="p-container">
+                <p id="greeting"></p>
+                <p>My name is Kole Bauer and I'm currently in my Junior year at Brigham Young University - Idaho, working toward a bachelor's degree in computer science with a minor in data science and an emphasis in machine learning. I have a passion for mathematics and currently participate in the Data Science Society. In my studies, I am learning and implementing skills in artificial intelligence, machine learning, and big data. Feel free to explore the different pages on my website to get to know me a bit better!</p>
+            </div>
+        </section>
+
+        <section class="contact-container" id="contact">
+            <div class="form-container">
+                <h2>Contact Me</h2>
+                <form action="https://formspree.io/f/mjvqqjny" method="post" id="contact-form">
+                    <div class="form-grid">
+                        <div class="form-row">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="company">Company (optional):</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-row full-width">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="download-link">Submit</button>
+                </form>                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/kole-bauer-925a1215a" target="_blank" class="linked-btn">LinkedIn</a>
+        <a href="https://github.com/ksb-byui" target="_blank" class="gith-btn">GitHub</a>
+        <a href="https://www.instagram.com/kole.boyy/" target="_blank" class="insta-btn">Instagram</a>
+        <a href="./contact.html" class="inquiry-btn">Inquiries</a>
+        <a href="https://ksb-byui.github.io/WDD-131/W11/SitePlan/siteplan.html" class="site-plan-btn">Site Plan</a>
+    </footer>
+</body>
+</html>
